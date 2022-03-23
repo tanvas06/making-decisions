@@ -41,7 +41,7 @@ console.log(`They are the same age`)
   Using an if statement and a comparison operator, create code that will check if Amy and Brittani were born in the same year. If they were, console.log 'Amy & Brittani were born in the same year'. If they were not, console.log 'Amy & Brittani were not born in the same year'
 */
 
-if(amysAge = brittanisAge){
+if(amysAge === brittanisAge){
   console.log(`Amy and Brittany are the same age`)
 } else {
   console.log(`Amy and Brittany were not born in the same year`)
